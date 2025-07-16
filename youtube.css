@@ -7,26 +7,21 @@ p{
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
 }
 .thumbnail{
-  width:300px;
+  width: 100%;
   margin-bottom: 12px;
 }
-.thumbnail-info{
-  margin-bottom: 0px;
-}
+
 .search-bar{
   font-size: 20px;
   margin-left: 30px;
   display: block;
 }
 
-.first-container{
-  display: inline-block;
-  width: 300px;
-  vertical-align: top;
-  margin-right:15px;
-}
+
 .video-info{
   display: grid;
   grid-template-columns: 50px 1fr;

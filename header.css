@@ -17,7 +17,6 @@
   height: 20px;
 }
 .middle-section{
-  background-color: lightpink;
   flex: 1;
   margin-left: 70px;
   margin-right: 35px;
@@ -25,15 +24,65 @@
   display: flex;
   align-items: center;
 }
+.search-bar{
+  flex: 1;
+  height: 36.5px;
+  padding-left: 10px;
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(175, 175, 175);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  width: 0;
+}
+.search-bar::placeholder{
+  font-family: roboto,Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
 .search-btn{
   height: 40px;
-  width: 60px;
+  width: 66px;
+  background-color: rgb(230, 230, 230);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(175, 175, 175);
+  margin-left: -1px;
+  margin-right: 10px;
+}
+.search-img{
+  margin-top: 5px;
+  height: 25px;
 }
 .voice-search-btn{
   height: 40px;
   width: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(239, 239, 239);
+}
+.voice-search-img{
+  height: 24px;
+  margin-top: 4px;
 }
 .right-section{
-  background-color: lightblue;
-  width: 200px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+.upload-img{
+  height: 24px;
+}
+.app-img{
+  height: 24px;
+}
+.notification-img{
+  height: 24px;
+}
+.user-profile-pic-img{
+  height: 32px;
+  border-radius: 50%;
 }

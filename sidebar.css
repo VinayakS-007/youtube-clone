@@ -1,0 +1,19 @@
+.sidebar-container{
+  height: 100%;
+  width: 72px;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  left: 0;
+}
+.sidebar-link{
+  height: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar-link:hover{
+  background-color: rgb(220, 220, 220);
+}
+.sidebar-link img{
+  height: 24px;
+}

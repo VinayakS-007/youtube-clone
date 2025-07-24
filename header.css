@@ -8,6 +8,7 @@
   background-color: white;
   top: 0px;
   z-index: 100;
+  border-bottom: solid 1px rgb(185, 185, 185);
 }
 .left-section{
   display: flex;
